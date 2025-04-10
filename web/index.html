@@ -1,29 +1,68 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Lesego Ramosa</title>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lesego Ramosa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="topnav">
-        <a class="active" href="#about-me">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact-me">Contact Me</a>
-        <a href="javascript:void(0);" class="icon" onclick="funcResponsive()">
-            <i class="fa fa-bars"></i>
-        </a>
-      </div>
-      <div class="hero-image">
-        <div class="hero-text">
-          <h1>Lesego Ramosa</h1>
-          <p>Aspiring Software Developer</p>
+  <body>
+    <header>
+      <h1>Lesego Ramosa</h1>
+      <img src="">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <p>Recent Computer & Information Sciences Graduate, aspiring to be a Security Engineer</p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="furniture-web">
+          <h3>Furniture Moving Web App</h3>
+          <img src="">
+          <p>A responsive web application to facilitate moving services, allowing users to explore offerings, contact support, and complete bookings seamlessly. The application includes features designed to enhance user experience and a secure payment integration.</p>
+          <button>GitHub Repo</button>
         </div>
-      </div>
-<div class="about-section">
-    <h1>About Me</h1>
-    <p>I do this and that</p>
-</div>
+        <div class="payshere-web">
+          <h3>PayShere</h3>
+          <img src="">
+          <p>An intuitive web application to simplify international payments. The platform enables seamless payment processing, transaction tracking, and administrative account management.</p>
+        </div>
+        <div class="vitalsync-app">
+          <h3>Vital-Sync Fitness App</h3>
+          <img src="">
+          <p>A fitness tracking mobile application to empower users to monitor workouts, receive timely reminders, and stay on top of their fitness goals. The app incorporates advanced features such as biometric authentication, offline mode, and multi-language support, making it accessible and user-friendly for a diverse audience.</p>
+        </div>
+      </section>
+      
+      <section id="about">
+        <h2>About Me</h2>
+        <h3>Skills</h3>
+        <p>C#, Kotlin</p>
+      </section>
 
-</body>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you are interested in working together, let's connect!</p>
+        <button>Copy Email</button>
+        <button>LinkedIn</button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+
+    <footer>
+      <p>&copy; 2025 Lesego Ramosa</p>
+    </footer>
+  </body>
 </html>
